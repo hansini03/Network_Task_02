@@ -76,6 +76,6 @@ Below is the sequence of events that takes place when accessing **www.google.com
 
 
 ### Command Outputs & Observations:
-1. **[span_47](start_span)What IP address did DNS return for Google?** The DNS resolution returned the IPv6 destination address `2404:6800:4009:80a::200e` for google.com[span_47](end_span).
-2. **[span_48](start_span)Was the ping successful?** Yes, the ping was successful with 0% packet loss, 4 packets sent, 4 received, and an average round-trip latency of 126ms[span_48](end_span).
-3. **[span_49](start_span)Why is DNS important before communication begins?** DNS is essential because network devices and servers rely exclusively on numerical or hexadecimal IP addresses to route packets, meaning name resolution must occur before any host-to-host data exchange can start[span_49](end_span).
+1. **What IP address did DNS return for Google?** The DNS resolution returned the IPv6 destination address `2404:6800:4009:80a::200e` for google.com.
+2. **Was the ping successful?** Yes, the ping was successful with 0% packet loss, 4 packets sent, 4 received, and an average round-trip latency of 126ms.
+3. **Why is DNS important before communication begins?** DNS is essential because network devices and servers rely exclusively on numerical or hexadecimal IP addresses to route packets, meaning name resolution must occur before any host-to-host data exchange can start.
